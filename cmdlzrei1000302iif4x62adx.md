@@ -68,7 +68,7 @@ Shifting is a **fast way to multiply or divide by powers of 2** using binary.
 | Symbol | Name | What It Does (In Simple Words) |
 | --- | --- | --- |
 | `&` | AND | Returns 1 only if **both bits are 1**; otherwise, returns 0 |
-|  |  | OR |
+| | | OR | Returns 1 if **any of the bit is 1**; otherwise, returns 0 |
 | `^` | XOR | Returns 1 if the **bits are different** |
 | `~` | NOT | **Flips each bit**: 0 becomes 1, 1 becomes 0 |
 | `<<` | Left Shift | **Moves bits to the left**, adds 0s on the right; multiplies by powers of 2 |
@@ -161,15 +161,6 @@ int y = 3 << 2; // Same as 3 * 4. super fast for computers
 ```
 
 ## 🎯 Bitwise Operators: Master the Bit Game
-
-Bitwise operators let you manipulate bits **directly**, like little switches.
-
-| Operator | Name | Action |
-| --- | --- | --- |
-| `&` | AND | Both bits must be 1 |
-| \` | \` | OR |
-| `^` | XOR | Bits must be different |
-| `~` | NOT | Flips all bits |
 
 🟩 Bitwise AND `&`
 
