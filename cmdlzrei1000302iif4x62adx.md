@@ -68,7 +68,7 @@ Shifting is a **fast way to multiply or divide by powers of 2** using binary.
 | Symbol | Name | What It Does (In Simple Words) |
 | --- | --- | --- |
 | `&` | AND | Returns 1 only if **both bits are 1**; otherwise, returns 0 |
-| | | OR | Returns 1 if **any of the bit is 1**; otherwise, returns 0 |
+| | | OR | OR |
 | `^` | XOR | Returns 1 if the **bits are different** |
 | `~` | NOT | **Flips each bit**: 0 becomes 1, 1 becomes 0 |
 | `<<` | Left Shift | **Moves bits to the left**, adds 0s on the right; multiplies by powers of 2 |
@@ -76,12 +76,7 @@ Shifting is a **fast way to multiply or divide by powers of 2** using binary.
 
 ## 🧠Always Remember:
 
-| A | B | A & B | A | B | A ^ B | ~A |
-| --- | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 | 0 | 1 |
-| 0 | 1 | 0 | 1 | 1 | 1 |
-| 1 | 0 | 0 | 1 | 1 | 0 |
-| 1 | 1 | 1 | 1 | 0 | 0 |
+| A | B | A & B | A | B | A ^ B | ~A | | --- | --- | --- | --- | --- | --- | | 0 | 0 | 0 | 0 | 0 | 1 | | 0 | 1 | 0 | 1 | 1 | 1 | | 1 | 0 | 0 | 1 | 1 | 0 | | 1 | 1 | 1 | 1 | 0 | 0 |
 
 ✅ **Explanation**:
 
